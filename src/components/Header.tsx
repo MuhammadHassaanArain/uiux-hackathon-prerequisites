@@ -16,14 +16,14 @@ export default function Header() {
           <Link href={"/"} className="hover:border-b border-gray-500">Sign Up</Link>
         </nav>
 
-        <div className=" h-[38px] flex my-3  w-2/6">
+        <div className=" h-[38px] flex my-3  lg:w-2/6  justify-around">
           <section className=" h-[38px] bg-gray-200 w-9/12  rounded-sm ">
             <div className=" h-[32px] text-gray-400 flex justify-around items-center">
               What are you looking for?
               <IoSearch className="text-black text-2xl" />
             </div>
           </section>
-          <div className=" h-[32px] flex  justify-evenly items-center w-3/12  text-black">
+          <div className=" h-[32px] flex  justify-evenly items-center lg:w-3/12 w-4/12  text-black">
             <FaRegHeart className="text-xl" />
             <PiShoppingCartDuotone className="text-xl" />
           </div>
