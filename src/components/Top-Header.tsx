@@ -4,7 +4,7 @@ export default function TopHeader() {
   return (
     <main className="h-[80px] sm:h-[48px] sm:flex items-center justify-around  bg-black text-white ">
       <p>
-        Summer Sale For All Swim Suits And Free Express Delivery OFF 50%!{"  "}
+        Summer Sale For All Swim Suits And Free Express Delivery OFF 50%!{" "}
         <span className="font-bold underline">ShopNow</span>
       </p>
       <p className="flex items-center">
@@ -13,4 +13,4 @@ export default function TopHeader() {
       </p>
     </main>
   );
-};
+}
